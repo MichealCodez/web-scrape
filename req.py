@@ -5,7 +5,7 @@ from lxml import html
 
 def send_request(url):
     response = requests.get(
-        url='https://app.scrapingbee.com/api/v1/',
+        url='api',
         params={
             'api_key': '',
             'url': url,
